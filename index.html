@@ -51,6 +51,7 @@
           </a>
         </div>
       </div>
+      <button type="button" data-menu-open>menu boczne</button>
     </header>
 
     <main class="page-main">
@@ -504,6 +505,39 @@
       </div>
     </div>
 
+    <div class="mobile_backdrop is-hidden" data-menu>
+       <div class="mobile_menu">
+        <button type="button" class="modal__close-btn" data-menu-close>X</button>
+        <nav class="mobile_menu__container">
+          <ul class="mobile_menu__list">
+            <li class="mobile_menu__element">
+              <a class="mobile_menu__item mobile_menu__item--now" href="./index.html">Agencja</a>
+            </li>
+            <li class="mobile_menu__element">
+              <a class="mobile_menu__item" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="mobile_menu__element mobile_menu__element--last">
+              <a class="mobile_menu__item" href="/Kontakt">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="mobile_contact-link">
+          <a class="mobile_contact-link__element" href=":mailto:info@devstudio.com"
+            >
+            info@devstudio.com
+          </a>
+          <a class="mobile_contact-link__element mobile_contact-link__element--last" href="tel:+48123456789">
+            +48 123 456 789
+          </a>
+        </div>
+        <a class="" href="/">Instagram</a>
+        <a class="" href="/">Facebook</a>
+        <a class="" href="/">Tweeter</a>
+        <a class="" href="/">Linkedin</a>
+      </div>
+
+
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
