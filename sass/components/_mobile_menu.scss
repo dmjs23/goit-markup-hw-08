@@ -1,0 +1,26 @@
+.mobile_menu {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+    scale 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 1;
+}
+
+.icon__modal {
+  fill: $main-bacgraund-color;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 3%;
+  bottom: -200%;
+  &:active,
+  &:focus {
+    border: 1px solid $main-color;
+    fill: $main-color;
+  }
+}
