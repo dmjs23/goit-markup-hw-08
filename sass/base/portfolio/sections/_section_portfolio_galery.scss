@@ -1,0 +1,50 @@
+.portfolio_gelery {
+  padding: 0 0 94px;
+  &__primary_info {
+    overflow: hidden;
+    height: 294px;
+    position: relative;
+    &:hover .portfolio_gelery__more_info {
+      transform: translate(0, 0);
+    }
+  }
+  &__more_info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0, 100%);
+    width: 370px;
+    height: 294px;
+    color: #fff;
+    background-color: rgba(33, 150, 243, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__list {
+    display: flex;
+    margin: 15px;
+    list-style: none;
+  }
+  &__element {
+    margin: 15px;
+    border: 1px solid #eee;
+    transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+  }
+  &__paragraf {
+    margin: 4px 24px 20px;
+  }
+  &__title {
+    margin: 20px 24px 0;
+  }
+}

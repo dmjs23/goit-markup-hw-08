@@ -1,0 +1,26 @@
+// podstawowe zmienne i ustawienia
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './base/common';
+@import './base/container';
+
+// gorny pasek i menu
+@import './components/logo';
+@import './components/nav';
+@import './components/links';
+@import './components/page-header';
+
+// sekcja przycisków
+@import './base/portfolio/sections/section_porflolio_btn';
+@import './components/portfolio/button_portfolio';
+
+// section galery
+@import './base/portfolio/sections/section_portfolio_galery';
+
+// footer
+@import './base/section_footer';
+@import './base/container_addres';
+@import './base/container_element';
+@import './base/container_joinAs';
+@import './components/social';
+@import './base/container_newsletter';

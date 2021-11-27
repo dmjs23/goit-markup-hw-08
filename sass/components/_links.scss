@@ -1,0 +1,33 @@
+.contact-link {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 225px;
+  margin-left: auto;
+  &__element {
+    color: #757575;
+    fill: $main-icon-color;
+    text-decoration: none;
+    margin-right: 50px;
+    transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1), fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,
+    &:hover {
+      color: $main-color;
+      fill: $main-color;
+    }
+  }
+  &__element--last {
+    margin-right: 0;
+  }
+  &__tel {
+    height: 16px;
+    width: 10px;
+    margin-right: 10px;
+  }
+  &__mail {
+    height: 12px;
+    width: 16px;
+    margin-right: 10px;
+  }
+}
+

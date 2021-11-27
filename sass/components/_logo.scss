@@ -1,0 +1,21 @@
+.logo {
+  font-size: 26px;
+  font-family: $secondary-font;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo--start {
+  margin-left: 215px;
+  margin-right: 95px;
+  color: #000;
+}
+.logo--end {
+  margin-left: 215px;
+  color: #fff;
+}
+.logo__text {
+  color: $main-color;
+}

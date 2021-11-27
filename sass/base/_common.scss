@@ -1,0 +1,34 @@
+
+body {
+  font-family: $main-font;
+  color: #000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.tittle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  &--margin {
+    margin-bottom: 50px;
+  }
+}

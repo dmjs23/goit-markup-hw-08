@@ -1,0 +1,10 @@
+.info_section {
+  padding: 0 0 94px;
+  &__list {
+    list-style: none;
+    display: inline-flex;
+  }
+  &__element {
+    margin: 15px;
+  }
+}

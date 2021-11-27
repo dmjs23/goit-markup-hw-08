@@ -1,0 +1,18 @@
+.info_content {
+  width: 270px;
+  &__icon_holder {
+    background-color: #f5f4fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    padding: 25px 0;
+    height: 120px;
+  }
+  &__paragraf {
+    line-height: 1.714;
+  }
+  &__icon {
+    height: 70px;
+  }
+}

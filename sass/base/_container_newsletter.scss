@@ -1,0 +1,45 @@
+.container_newsletter {
+  margin-left: 78px;
+  &__form {
+    display: flex;
+  }
+  &__input_mail {
+    width: 350px;
+    height: 50px;
+    background-color: $main-bacgraund-color;
+    color: $secondary-bacgraund-color;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 10px;
+  }
+  &__btn_send {
+    width: 200px;
+    height: 50px;
+    background-color: $main-color;
+    color: #fff;
+    margin-left: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+}

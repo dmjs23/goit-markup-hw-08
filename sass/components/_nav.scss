@@ -1,0 +1,40 @@
+.menu {
+  display: flex;
+  align-items: center;
+  &__list {
+    display: flex;
+    list-style: none;
+  }
+  &__element {
+    margin-right: 45px;
+    &--last {
+      margin-right: 0;
+    }
+  }
+  &__item {
+    position: relative;
+    font-weight: 600;
+    font-size: 14px;
+    color: #212121;
+    text-decoration: none;
+    transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    &--now {
+      color: $main-color;
+    }
+    &--now::after {
+      position: absolute;
+      content: '';
+      bottom: -28px;
+      left: 0;
+      height: 4px;
+      width: 53px;
+      border-bottom: 2px solid $main-color;
+      border-radius: 2px;
+    }
+    &:hover,
+    &:focus {
+      color: $main-color;
+      fill: $main-color;
+    }
+  }
+}

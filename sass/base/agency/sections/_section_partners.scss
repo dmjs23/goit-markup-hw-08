@@ -1,0 +1,11 @@
+.partners_section {
+  text-align: center;
+  padding-top: 94px;
+  padding: 94px 0 94px;
+  &__list {
+    display: flex;
+    justify-content: center;
+    margin: 0 215px;
+    list-style: none;
+  }
+}

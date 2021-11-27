@@ -1,0 +1,23 @@
+.title_section {
+  padding: 0 0 94px;
+  &__container {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(47, 48, 58, 0.4);
+  }
+  &__title {
+    color: #fff;
+    font-size: 44px;
+    letter-spacing: 6%;
+    line-height: 1.363;
+    letter-spacing: 0.06em;
+  }
+  &__title_container {
+    width: 696px;
+    min-height: 120px;
+    text-align: center;
+  }
+}

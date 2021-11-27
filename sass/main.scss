@@ -1,0 +1,45 @@
+// podstawowe zmienne i ustawienia
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './base/common';
+@import './base/container';
+
+// backdrop and modal
+@import './base/container_modal';
+@import './components/backdrop';
+@import './components/button_modal_semd';
+@import './components/modal';
+@import './components/modal__close-btn';
+@import './components/modal_form';
+
+// gorny pasek i menu
+@import './components/logo';
+@import './components/nav';
+@import './components/links';
+@import './components/page-header';
+
+// sekcja tytułowa
+@import './base/agency/sections/section_title';
+@import './components/button';
+
+// info section
+@import './base/agency/sections/section_info';
+@import './components/agency/info_content';
+@import './components/agency/info-client';
+
+// tech section
+@import './base/agency/sections/section_tech';
+
+// team section
+@import './base/agency/sections/section_team';
+
+// partners section
+@import './base/agency/sections/section_partners';
+
+// footer
+@import './base/section_footer';
+@import './base/container_addres';
+@import './base/container_element';
+@import './base/container_joinAs';
+@import './components/social';
+@import './base/container_newsletter';
