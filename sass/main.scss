@@ -11,6 +11,9 @@
 @import './components/modal';
 @import './components/modal__close-btn';
 @import './components/modal_form';
+@import "./base/container_mobile_menu";
+@import "./components/mobile_backdrop";
+@import "./components/mobile_menu";
 
 // gorny pasek i menu
 @import './components/logo';

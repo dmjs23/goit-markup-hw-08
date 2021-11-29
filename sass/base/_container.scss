@@ -1,15 +1,54 @@
+// .container {
+//   width: 1600px;
+//   margin: 0 auto;
+//   &--header {
+//     display: flex;
+//     align-items: center;
+//     min-height: 80px;
+//   }
+//   &--title_section {
+//     background-image: url('../images/main_bacgraund.jpg');
+//   }
+//   &--info_section {
+//     display: flex;
+//     justify-content: center;
+//   }
+//   &--portfolio_gelery {
+//     display: flex;
+//     justify-content: center;
+//     flex-wrap: wrap;
+//   }
+//   &--flex {
+//     display: flex;
+//     align-items: center;
+//   }
+// }
+
 .container {
-  width: 1600px;
+  width: 100%;
   margin: 0 auto;
   &--header {
     display: flex;
     align-items: center;
-    min-height: 80px;
+    height: 80px;
+    max-width: 1600px;
+
+    @media screen and (max-width: 480px) {
+      margin-right: 0;
+    }
+    @media screen and (min-width: 760px) {
+      padding: 0 15px 0 15px;
+    }
+    @media screen and (min-width: 1200px) {
+      padding: 0 225px 0 215px;
+    }
   }
   &--title_section {
+    max-width: 1600px;
     background-image: url('../images/main_bacgraund.jpg');
   }
   &--info_section {
+    max-width: 1600px;
     display: flex;
     justify-content: center;
   }
@@ -17,10 +56,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 1600px;
   }
   &--flex {
     display: flex;
     align-items: center;
+    max-width: 1600px;
+    padding: 0 0 0 215px;
   }
 }
-

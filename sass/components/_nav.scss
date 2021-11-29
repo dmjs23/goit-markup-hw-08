@@ -2,6 +2,19 @@
   display: flex;
   align-items: center;
   &__list {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 0;
+    @media screen and (min-width: 720px) {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: visible;
+      width: 0;
+    }
+    @media screen and (min-width: 1200px) {
+      // margin-right: 95px;
+    }
     display: flex;
     list-style: none;
   }
@@ -35,6 +48,22 @@
     &:focus {
       color: $main-color;
       fill: $main-color;
+    }
+  }
+  &__mobile_button {
+    height: 16px;
+    width: 24px;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2.67px solid #212121;
+    border-top: 2.67px solid #212121;
+    @media screen and (min-width: 720px) {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      width: 0;
     }
   }
 }
