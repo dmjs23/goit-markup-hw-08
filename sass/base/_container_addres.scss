@@ -1,4 +1,11 @@
 .container_adress {
+  @media screen and (max-width: 760px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-right: 15%;
+    }
   &__contet {
     // margin-left: 215px;
     margin-top: 20px;
@@ -6,5 +13,10 @@
   &__list {
     margin-bottom: 9px;
     list-style: none;
+    @media screen and (max-width: 760px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
   }
 }

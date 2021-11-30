@@ -63,5 +63,19 @@
     align-items: center;
     max-width: 1600px;
     padding: 0 0 0 215px;
+    @media screen and (max-width: 760px) {
+      flex-wrap: wrap;
+      padding: 0;
+      justify-content: center;
+    }
   }
+  // &--tech_section {
+  //   @media screen and (max-width: 760px) {
+  //     opacity: 0;
+  //     visibility: hidden;
+  //     pointer-events: none;
+  //     position: absolute;
+  //     padding: 0;
+  //   }
+  // }
 }

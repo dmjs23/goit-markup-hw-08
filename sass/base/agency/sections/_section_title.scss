@@ -7,17 +7,28 @@
     align-items: center;
     justify-content: center;
     background: rgba(47, 48, 58, 0.4);
+    @media screen and (max-width: 1200px) {
+      min-height: 400px;
+    }
   }
   &__title {
     color: #fff;
     font-size: 44px;
+    @media screen and (max-width: 1200px) {
+      font-size: 26px;
+    }
     letter-spacing: 6%;
     line-height: 1.363;
     letter-spacing: 0.06em;
   }
   &__title_container {
     width: 696px;
+    @media screen and (max-width: 1200px) {
+      min-height: 84px;
+      width: 365px;
+    }
     min-height: 120px;
     text-align: center;
+    
   }
 }

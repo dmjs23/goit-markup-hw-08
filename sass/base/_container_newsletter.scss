@@ -1,7 +1,19 @@
 .container_newsletter {
   margin-left: 78px;
+  @media screen and (max-width: 760px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 0;
+    margin-bottom: 60px;
+    }
   &__form {
     display: flex;
+    @media screen and (max-width: 760px) {
+    flex-direction: column;
+    align-items: center;
+    }
   }
   &__input_mail {
     width: 350px;
@@ -15,6 +27,10 @@
     padding-left: 10px;
   }
   &__btn_send {
+    margin-top:0 ;
+    @media screen and (max-width: 760px) {
+    margin-top: 20px;
+    }
     width: 200px;
     height: 50px;
     background-color: $main-color;

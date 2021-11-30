@@ -7,5 +7,20 @@
     justify-content: center;
     margin: 0 215px;
     list-style: none;
+    @media screen and (max-width: 480px) {
+      flex-direction: row;
+      max-width: 480px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    @media screen and (max-width: 760px) {
+      flex-direction: row;
+      max-width: 760px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  &__element{
+    margin-right:30px ;
   }
 }

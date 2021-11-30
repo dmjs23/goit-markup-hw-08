@@ -1,5 +1,12 @@
 .tech_section {
   padding: 0 0 94px;
+  @media screen and (max-width: 1200px) {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      position: absolute;
+      padding: 0;
+    }
   &__list {
     list-style: none;
     display: flex;

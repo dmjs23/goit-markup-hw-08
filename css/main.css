@@ -102,6 +102,14 @@ ul {
   padding: 0 0 0 215px;
 }
 
+@media screen and (max-width: 760px) {
+  .container--flex {
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+  }
+}
+
 .modal__container {
   margin: 40px;
 }
@@ -163,6 +171,15 @@ ul {
   border-radius: 4px;
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1), scale 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 1;
+}
+
+@media screen and (max-width: 1200px) {
+  .modal {
+    top: 10%;
+    left: 15%;
+    width: 450px;
+    height: 609px;
+  }
 }
 
 .icon__modal {
@@ -593,6 +610,12 @@ ul {
   background: rgba(47, 48, 58, 0.4);
 }
 
+@media screen and (max-width: 1200px) {
+  .title_section__container {
+    min-height: 400px;
+  }
+}
+
 .title_section__title {
   color: #fff;
   font-size: 44px;
@@ -601,10 +624,23 @@ ul {
   letter-spacing: 0.06em;
 }
 
+@media screen and (max-width: 1200px) {
+  .title_section__title {
+    font-size: 26px;
+  }
+}
+
 .title_section__title_container {
   width: 696px;
   min-height: 120px;
   text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .title_section__title_container {
+    min-height: 84px;
+    width: 365px;
+  }
 }
 
 .button {
@@ -629,6 +665,21 @@ ul {
 .info_section__list {
   list-style: none;
   display: flex;
+}
+
+@media screen and (max-width: 480px) {
+  .info_section__list {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .info_section__list {
+    flex-direction: row;
+    max-width: 760px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .info_section__element {
@@ -680,6 +731,16 @@ ul {
   padding: 0 0 94px;
 }
 
+@media screen and (max-width: 1200px) {
+  .tech_section {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    padding: 0;
+  }
+}
+
 .tech_section__list {
   list-style: none;
   display: flex;
@@ -725,6 +786,21 @@ ul {
   display: inline-flex;
 }
 
+@media screen and (max-width: 480px) {
+  .team_section__list {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .team_section__list {
+    flex-direction: row;
+    max-width: 760px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 .team_section__element {
   background-color: #fff;
   margin: 15px;
@@ -763,12 +839,44 @@ ul {
   list-style: none;
 }
 
+@media screen and (max-width: 480px) {
+  .partners_section__list {
+    flex-direction: row;
+    max-width: 480px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .partners_section__list {
+    flex-direction: row;
+    max-width: 760px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.partners_section__element {
+  margin-right: 30px;
+}
+
 .footer_designed {
   min-height: 252px;
   display: flex;
   align-items: center;
   background-color: #2f303a;
   color: #fff;
+}
+
+@media screen and (max-width: 760px) {
+  .container_adress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-right: 15%;
+  }
 }
 
 .container_adress__contet {
@@ -778,6 +886,14 @@ ul {
 .container_adress__list {
   margin-bottom: 9px;
   list-style: none;
+}
+
+@media screen and (max-width: 760px) {
+  .container_adress__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .container_element {
@@ -791,6 +907,16 @@ ul {
 
 .container_joinAs {
   margin-left: 70px;
+}
+
+@media screen and (max-width: 760px) {
+  .container_joinAs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 0;
+  }
 }
 
 .container_joinAs__list {
@@ -832,8 +958,26 @@ ul {
   margin-left: 78px;
 }
 
+@media screen and (max-width: 760px) {
+  .container_newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 0;
+    margin-bottom: 60px;
+  }
+}
+
 .container_newsletter__form {
   display: flex;
+}
+
+@media screen and (max-width: 760px) {
+  .container_newsletter__form {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .container_newsletter__input_mail {
@@ -849,6 +993,7 @@ ul {
 }
 
 .container_newsletter__btn_send {
+  margin-top: 0;
   width: 200px;
   height: 50px;
   background-color: #2196f3;
@@ -865,6 +1010,12 @@ ul {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+}
+
+@media screen and (max-width: 760px) {
+  .container_newsletter__btn_send {
+    margin-top: 20px;
+  }
 }
 
 .container_newsletter__title {
