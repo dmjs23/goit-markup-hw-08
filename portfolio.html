@@ -31,16 +31,18 @@
 
           <ul class="menu__list">
             <li class="menu__element">
-              <a class="menu__item" href="./index.html">Agencja</a>
+              <a class="menu__item menu__item--now" href="./index.html">Agencja</a>
             </li>
             <li class="menu__element">
-              <a class="menu__item menu__item--now" href="./portfolio.html">Portfolio</a>
+              <a class="menu__item" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="menu__element menu__element--last">
               <a class="menu__item" href="/Kontakt">Kontakt</a>
             </li>
           </ul>
+          <input type="button" class="menu__mobile_button" data-menu-open>
         </nav>
+        
         <div class="contact-link">
           <a class="contact-link__element" href=":mailto:info@devstudio.com"
             ><svg class="contact-link__mail">
@@ -343,5 +345,43 @@
         </div>
       </div>
     </footer>
+
+     <div class="mobile_backdrop is-hidden" data-menu>
+       <div class="mobile_menu">
+        <button type="button" class="mobile_menu__close-btn" data-menu-close>X</button>
+        <nav class="mobile_menu__container">
+          <ul class="mobile_menu__list">
+            <li class="mobile_menu__element">
+              <a class="mobile_menu__item" href="./index.html">Agencja</a>
+            </li>
+            <li class="mobile_menu__element">
+              <a class="mobile_menu__item mobile_menu__item--now" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="mobile_menu__element mobile_menu__element--last">
+              <a class="mobile_menu__item" href="/Kontakt">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="mobile_contact-link">
+          <a class="mobile_contact-link__element" href=":mailto:info@devstudio.com"
+            >
+            info@devstudio.com
+          </a>
+          <a class="mobile_contact-link__element mobile_contact-link__element--last" href="tel:+48123456789">
+            +48 123 456 789
+          </a>
+        </div>
+        <div class="mobile_contact-link__social">
+        <a class="mobile_contact-link__social--item" href="/">Instagram</a>
+        <a class="mobile_contact-link__social--item" href="/">Facebook</a>
+        <a class="mobile_contact-link__social--item" href="/">Tweeter</a>
+        <a class="mobile_contact-link__social--item mobile_contact-link__social--last" href="/">Linkedin</a>
+        </div>
+        
+      </div>
+
+    <script src="./js/mobile-menu.js"></script>
+
+
   </body>
 </html>

@@ -9,6 +9,25 @@
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1),
     scale 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 1;
+  &__list {
+    list-style: none;
+    margin-left: 40px;
+  }
+  &__item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #000;
+    &--now{
+      color: $main-color;
+    }
+  }
+  &__element{
+    margin-bottom: 36px;
+  }
 }
 
 .icon__modal {
