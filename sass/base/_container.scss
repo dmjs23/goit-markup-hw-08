@@ -17,6 +17,7 @@
     }
   }
   &--title_section {
+    
     max-width: 1600px;
     background-image: url('../images/Header_mobile@1x.jpg');
     @media screen and (min-width: 760px) {
@@ -26,6 +27,7 @@
       background-image: url('../images/Header_@1x.jpg');
     }
     background-repeat: no-repeat;
+    background-size:cover
   }
   &--info_section {
     max-width: 1600px;

@@ -76,6 +76,7 @@ ul {
   max-width: 1600px;
   background-image: url("../images/Header_mobile@1x.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media screen and (min-width: 760px) {
