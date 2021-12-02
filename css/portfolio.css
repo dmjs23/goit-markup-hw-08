@@ -376,6 +376,16 @@ ul {
   }
 }
 
+.menu__mobile_button--linia::after {
+  position: absolute;
+  content: '';
+  right: 5px;
+  top: 37px;
+  height: 4px;
+  width: 24px;
+  border-bottom: 2.67px solid #212121;
+}
+
 .contact-link {
   display: flex;
   font-size: 14px;
@@ -596,12 +606,16 @@ ul {
   color: #fff;
 }
 
-@media screen and (max-width: 760px) {
+.container_adress {
+  margin-top: 60px;
+  margin-right: 0;
+}
+
+@media screen and (min-width: 760px) {
   .container_adress {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
     margin-right: 15%;
   }
 }
