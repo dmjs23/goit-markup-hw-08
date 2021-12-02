@@ -4,13 +4,14 @@
   text-align: center;
   padding-top: 94px;
   fill: #afb1b8;
+  min-width: 320px;
   &__list {
     list-style: none;
     display: inline-flex;
     @media screen and (max-width: 480px) {
       flex-direction: column;
     }
-    @media screen and (max-width: 760px) {
+    @media screen and (max-width: 1199px) {
       flex-direction: row;
       max-width: 760px;
       flex-wrap: wrap;

@@ -1,7 +1,12 @@
 .portfolio_section_btn {
+  min-width: 320px;
   &__list {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     list-style: none;
+    flex-wrap: wrap;
+    @media screen and (min-width: 768px) {
+      justify-content: center;
+    }
   }
 }

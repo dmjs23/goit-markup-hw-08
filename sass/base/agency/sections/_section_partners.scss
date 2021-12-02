@@ -2,10 +2,10 @@
   text-align: center;
   padding-top: 94px;
   padding: 94px 0 94px;
+  min-width: 320px;
   &__list {
     display: flex;
     justify-content: center;
-    margin: 0 215px;
     list-style: none;
     @media screen and (max-width: 480px) {
       flex-direction: row;
@@ -13,7 +13,7 @@
       flex-wrap: wrap;
       justify-content: center;
     }
-    @media screen and (max-width: 760px) {
+    @media screen and (max-width: 1199px) {
       flex-direction: row;
       max-width: 760px;
       flex-wrap: wrap;

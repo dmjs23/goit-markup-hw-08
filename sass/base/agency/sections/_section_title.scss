@@ -1,5 +1,8 @@
 .title_section {
   padding: 0 0 94px;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
   &__container {
     min-height: 600px;
     display: flex;
@@ -29,6 +32,5 @@
     }
     min-height: 120px;
     text-align: center;
-    
   }
 }

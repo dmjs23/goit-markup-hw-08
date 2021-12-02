@@ -1,5 +1,8 @@
 .info_section {
   padding: 0 0 94px;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
   &__list {
     list-style: none;
     display: flex;

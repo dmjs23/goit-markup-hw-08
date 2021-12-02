@@ -1,5 +1,9 @@
 .portfolio_gelery {
   padding: 0 0 94px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-width: 320px;
   &__primary_info {
     overflow: hidden;
     height: 294px;
@@ -31,14 +35,16 @@
     display: flex;
     margin: 15px;
     list-style: none;
-    @media screen and (max-width: 480px) {
-      flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media screen and (min-width: 1200px) {
+      max-width: 1600px;
     }
-    @media screen and (max-width: 760px) {
-      flex-direction: row;
-      max-width: 760px;
-      flex-wrap: wrap;
-      justify-content: center;
+  }
+  &__image {
+    max-width: 350px;
+    @media screen and (min-width: 1240px) {
+      max-width: 370px;
     }
   }
   &__element {
@@ -50,10 +56,10 @@
         1px 4px 6px rgba(0, 0, 0, 0.16);
     }
     @media screen and (max-width: 480px) {
-      
+      max-width: 350px;
     }
     @media screen and (max-width: 760px) {
-      
+      max-width: 350px;
     }
   }
   &__paragraf {
