@@ -2,9 +2,14 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transform: scale(0);
 }
 
 .is-hidden .modal {
-  transform: scale(0);
+  // transform: scale(0);
+  opacity: 0;
+}
+.is-hidden .mobile_menu {
+  // transform: scale(0);
   opacity: 0;
 }

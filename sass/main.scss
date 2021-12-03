@@ -11,11 +11,12 @@
 @import './components/modal';
 @import './components/modal__close-btn';
 @import './components/modal_form';
-@import "./base/container_mobile_menu";
-@import "./components/mobile_backdrop";
-@import "./components/mobile_menu";
-@import "./components/mobile_menu__close-btn";
-@import "./components/mobile_contact-link";
+//mobile_menu
+@import './base/container_mobile_menu';
+@import './components/mobile_backdrop';
+@import './components/mobile_menu';
+@import './components/mobile_menu__close-btn';
+@import './components/mobile_contact-link';
 
 // gorny pasek i menu
 @import './components/logo';
