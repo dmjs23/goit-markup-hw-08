@@ -1,11 +1,12 @@
 .container_adress {
   margin-top: 60px;
+  margin-left: 60px;
   margin-right: 0;
-  @media screen and (min-width: 760px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    // margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and(max-width: 599px) {
+    margin-left: 10px;
   }
   &__contet {
     margin-top: 20px;
@@ -13,7 +14,7 @@
   &__list {
     margin-bottom: 9px;
     list-style: none;
-    @media screen and (max-width: 760px) {
+    @media screen and (max-width: 1199px) {
       display: flex;
       flex-direction: column;
       align-items: center;

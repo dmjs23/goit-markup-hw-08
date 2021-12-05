@@ -1,12 +1,17 @@
 .container_joinAs {
   margin-left: 70px;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 1199px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 60px;
+    margin-left: auto;
+    margin-right: 60px;
+  }
+  @media screen and (max-width: 545px) {
+    margin-right: 0;
     margin-left: 0;
-    }
+  }
   &__list {
     list-style: none;
     display: flex;

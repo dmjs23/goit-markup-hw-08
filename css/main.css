@@ -126,6 +126,7 @@ ul {
     flex-wrap: wrap;
     padding: 0;
     justify-content: center;
+    max-width: 895px;
   }
 }
 
@@ -931,14 +932,16 @@ ul {
 
 .container_adress {
   margin-top: 60px;
+  margin-left: 60px;
   margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (max-width: 599px) {
   .container_adress {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-left: 10px;
   }
 }
 
@@ -951,7 +954,7 @@ ul {
   list-style: none;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1199px) {
   .container_adress__list {
     display: flex;
     flex-direction: column;
@@ -972,12 +975,20 @@ ul {
   margin-left: 70px;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1199px) {
   .container_joinAs {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 60px;
+    margin-left: auto;
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .container_joinAs {
+    margin-right: 0;
     margin-left: 0;
   }
 }
@@ -1021,7 +1032,7 @@ ul {
   margin-left: 78px;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1199px) {
   .container_newsletter {
     display: flex;
     flex-direction: column;
@@ -1036,7 +1047,7 @@ ul {
   display: flex;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1199px) {
   .container_newsletter__form {
     flex-direction: column;
     align-items: center;
@@ -1075,7 +1086,7 @@ ul {
   letter-spacing: 0.06em;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1199px) {
   .container_newsletter__btn_send {
     margin-top: 20px;
   }
